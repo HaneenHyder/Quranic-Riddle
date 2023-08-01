@@ -2,8 +2,6 @@
 
 Quranic Riddle is a simple guessing game based on the Quran's Surahs. The game challenges you to guess the Surah number or name based on a random question displayed. See how many correct guesses you can get in a row!
 
-![Game Screenshot](screenshot.png)
-
 ## How to Play
 
 1. Click on the "Surah➡️Number" button or "Number➡️Surah" button to start the game.
