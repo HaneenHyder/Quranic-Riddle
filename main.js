@@ -193,7 +193,6 @@ const checkEventHandler = function () {
   // When answer is correct
   if (guessvalue === answer) {
     guess.value = "";
-    console.log("Correct");
     score++;
     scoreText.textContent = score;
 
@@ -224,9 +223,7 @@ const checkEventHandler = function () {
 surahToNumber.addEventListener("click", function () {
   toggleModal();
   surahToNumberClicked = true;
-
   initSurahToNumber();
-
   check.addEventListener("click", checkEventHandler);
 });
 
@@ -268,7 +265,6 @@ numberToSurah.addEventListener("click", function () {
       } else {
         chance--;
         chanceLeft.textContent = chance + 1;
-        console.log(chance);
         guess.value = "";
       }
       displayMessege("Wrong Answer");
