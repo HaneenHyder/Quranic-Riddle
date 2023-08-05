@@ -170,7 +170,6 @@ const displayMessege = function (message) {
 const initSurahToNumber = function () {
   answer = Math.trunc(Math.random() * 114) + 1;
   qn = surahNames[answer - 1];
-  console.log(answer);
   qnBox.textContent = qn;
 };
 
@@ -178,7 +177,6 @@ const initSurahToNumber = function () {
 const initNumberToSurah = function () {
   answer = Math.trunc(Math.random() * 114) + 1;
   qn = answer;
-  console.log(surahNames[answer - 1]);
   qnBox.textContent = qn;
 };
 
