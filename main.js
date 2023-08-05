@@ -196,7 +196,7 @@ const checkEventHandler = function () {
     console.log("Correct");
     score++;
     scoreText.textContent = score;
-    console.log(score);
+
     displayMessege("Correct Answer");
     initSurahToNumber();
 
@@ -216,9 +216,7 @@ const checkEventHandler = function () {
     } else {
       chance--;
       chanceLeft.textContent = chance + 1;
-      console.log(chance);
     }
-    console.log("Wrong");
     displayMessege("Wrong Answer");
   }
 };
@@ -226,7 +224,7 @@ const checkEventHandler = function () {
 surahToNumber.addEventListener("click", function () {
   toggleModal();
   surahToNumberClicked = true;
-  console.log(`surahToNumberClicked ${surahToNumberClicked}`);
+
   initSurahToNumber();
 
   check.addEventListener("click", checkEventHandler);
@@ -236,7 +234,6 @@ numberToSurah.addEventListener("click", function () {
   type.type = "text";
   toggleModal();
   surahToNumberClicked = true;
-  console.log(`numberToSurahClicked ${numberToSurahClicked}`);
   let chance = 3 - 1;
   chanceLeft.textContent = chance + 1;
   initNumberToSurah();
@@ -249,7 +246,6 @@ numberToSurah.addEventListener("click", function () {
 
       // When answer is correct
     } else if (guessNumber === surahNames[answer - 1]) {
-      console.log("Correct");
       score++;
       scoreText.textContent = score;
       displayMessege("Correct Answer");
@@ -275,7 +271,6 @@ numberToSurah.addEventListener("click", function () {
         console.log(chance);
         guess.value = "";
       }
-      console.log("Wrong");
       displayMessege("Wrong Answer");
     }
   });
