@@ -15,7 +15,7 @@ Quranic Riddle is a simple guessing game based on the Quran's Surahs. The game c
 
 There is no need for installation; you can play the game directly by visiting the live link below:
 
-[Play Quranic Riddle]([https://example.com/quranic-riddle](https://quranicriddle.netlify.app/main.html))
+[Play Quranic Riddle](https://example.com/quranic-riddle](https://quranicriddle.netlify.app/main.html)
 
 ## Technologies Used
 
