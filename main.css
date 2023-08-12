@@ -212,7 +212,7 @@ h1 {
 .site-footer a {
   color: #fee715;
 }
-.site-footer a:hover {
+.site-footer .ftr .copyright-text a:hover {
   color: #3366cc;
   text-decoration: none;
 }
@@ -271,7 +271,6 @@ h1 {
 .social-icons a:focus,
 .social-icons a:hover {
   color: #fff;
-  background-color: #29aafe;
 }
 .social-icons.size-sm a {
   line-height: 34px;
@@ -282,8 +281,8 @@ h1 {
 .social-icons a.whatsapp:hover {
   background-color: #075e54;
 }
-.social-icons a.x:hover {
-  background-color: #00aced;
+.social-icons a.x-twitter:hover {
+  background-color: rgb(0, 0, 0);
 }
 .social-icons a.linkedin:hover {
   background-color: #007bb6;
